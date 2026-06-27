@@ -16,7 +16,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp",
         policy => policy
-            .WithOrigins("http://localhost:3000") // React dev server insert dito 
+            .WithOrigins("http://localhost:5173/") // React dev server insert dito 
             .AllowAnyHeader()
             .AllowAnyMethod());
 });
